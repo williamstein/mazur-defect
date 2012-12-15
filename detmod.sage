@@ -1,4 +1,4 @@
-@parallel(12)
+@parallel(32)
 def f(p,k):
     M = ModularSymbols(1,k,sign=1,base_ring=GF(p))
     S = M.cuspidal_subspace()
